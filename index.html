@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmeto Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Buy 3 and Save 30%</h1>
+        </div>
+
+        <div class="main-content">
+            <div class="products-grid" id="productsGrid">
+
+            </div>
+
+            <div class="bundle-sidebar">
+                <div class="bundle-header">
+                    <h2 class="bundle-title">Create a Bundle</h2>
+                    <p class="bundle-subtitle">Add at <strong>least 3</strong> products and <strong>Save 30%</strong>.</p>
+                </div>
+
+              <div class="progress-container">
+  <div class="progress-label" id="progressLabel">0/3 added</div>
+  <div class="progress-bar">
+    <div class="progress-fill" id="progressFill"></div>
+  </div>
+</div>
+
+                <div class="bundle-items" id="bundleItems">
+                    
+                </div>
+
+                <div class="bundle-summary">
+                    <div class="summary-row discount" id="discountRow">
+                        <span>Discount</span>
+                        <span id="discountAmount">- $0.00</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Subtotal</span>
+                        <span id="subtotal">$0.00</span>
+                    </div>
+                </div>
+
+                <button class="proceed-btn" id="proceedBtn" disabled>
+                    <span id="proceedText">Add 3 Items to Proceed</span>
+                    <span class="arrow">›</span>
+                    <span class="check-icon" style="display: none;">✓</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
