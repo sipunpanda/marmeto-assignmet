@@ -1,6 +1,6 @@
 # 🚀 Marmeto Product Showcase
 
-A sleek and modern web application that dynamically showcases products using Shopify's data. Built with HTML, CSS, and JavaScript — optimized for performance and visual appeal.
+A sleek and modern web application that dynamically showcases products. Built with HTML, CSS, and JavaScript — optimized for performance and visual appeal.
 
 🔗 **[Live Demo →](https://sipunpanda-marmeto.netlify.app/)**
 
